@@ -37,7 +37,7 @@ def debug_task(self):
 
 app.conf.beat_schedule = {
     "add-every-5-seconds": {
-        "task": "hennie",
+        "task": "check_test",
         "schedule": 5.0,
     },
     "add-every-minute-contrab": {

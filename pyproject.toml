@@ -8,6 +8,8 @@ authors = ["nana1243 <hieun1243@gmail.com>"]
 python = "^3.8"
 celery = "^5.2.3"
 pydantic = "^1.9.0"
+Django = "^4.0.2"
+redis = "^4.1.2"
 
 [tool.poetry.dev-dependencies]
 yes24 = "yes"
